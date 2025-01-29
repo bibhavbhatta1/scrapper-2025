@@ -14,6 +14,10 @@ URL = "https://books.toscrape.com/"
 # git commit -m "Your message"
 # copy paste git code from github
 
+# git add .
+# git commit -m "Message"
+# git push 
+
 
 def scrape_books():
     response = requests.get(URL)
